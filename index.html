@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Where Do You Want to Go?</title>
+	<link href="mystyle.css" rel="stylesheet" type="text/css" />	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css" rel="stylesheet" type="text/css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//options here
+				autoScrolling:true,
+				scrollOverflow:true,
+				css3: true,
+				loopHorizontal: false
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<audio autoplay>
+		<source src="Route.mp3">
+    </audio>
+	
+	<div id="fullpage" class="fadeIt">
+		<div class="section">
+			<div class="slide">
+				<video data-autoplay id="routeOne">
+					<source src="Video/Route 1.mp4" type="video/mp4" />
+				</video>
+			</div>
+			<div class="slide active">
+				Where Do You Want to Go?
+			</div>
+			<div class="slide mlshome">
+				<video data-autoplay id="routeTwo">
+					<source src="Video/Route 2.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

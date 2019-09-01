@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	font-family: 'rabioheadregular';
+	font-size: 100pt;
+}
+
+@font-face {
+    font-family: 'rabioheadregular';
+    src: url('rabiohead-webfont-webfont.woff2') format('woff2'),
+         url('rabiohead-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fadeIt {
+	opacity:0;
+	-webkit-animation-name: fadeit; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-fill-mode: forwards;
+	animation-name: fadeit;
+	animation-duration: 1s;
+	animation-delay: 1.5s; 
+	animation-fill-mode: forwards;
+	
+}
+@-webkit-keyframes fadeit {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeit {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
