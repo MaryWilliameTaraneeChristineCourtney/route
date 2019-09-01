@@ -1,4 +1,4 @@
-# What's the positive thing about the number 2?
+# What's the Positive Thing About the Number 2?
 
 The significance of that number is that we're 2gether. <br />
 2 be with you is hoping 2 stick with you forever. <br />
