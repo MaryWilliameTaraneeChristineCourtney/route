@@ -5,7 +5,7 @@ The significance of that number is that we're 2gether. <br />
 Chum, how 2 you do? <br />
 How 2 I live without you? <br /> <br />
 I know, whatever I think of right now is s2pid. <br />
-I'm so awake to think these puns at midnight, Cupid. <br />
+I'm so awake 2 think these puns at midnight, Cupid. <br />
 I drink 2 much milk tea <br />
 2 think all of these things insanely. <br /> <br />
 Anyways, it's been 2 years since you're partnered. <br />
